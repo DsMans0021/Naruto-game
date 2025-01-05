@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #fbc2eb, #a6c1ee);
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+.button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #ff3e3e;
+}
+.shop {
+    margin-top: 20px;
+}
+.shop-item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+}
+.shop-item img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto 10px;
+}
+.shop-item button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.shop-item button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.new-stage {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px dashed #333;
+    background-color: rgba(255, 255, 255, 0.8);
+}
